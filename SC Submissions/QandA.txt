@@ -1,0 +1,6 @@
+Q1: What, in your opinion, is an important part of code reviews? That is, what is something you pay attention to when you review code, and that you appreciate when others do the same for your code?
+
+
+Q2: We have an awful lot of computers here, and it gets pretty confusing with slightly different things running on all of them. How could containers help us improve this situation?
+
+A: Using the analogy of Colab, containers such as docker allow an environment of both processing and packages and dependencies. This allows people with a variety of front-end-connecting-devices (from phones to tablets (perhaps watches and wearables) to various operating systems of netbooks laptops desktops servers mini's mainframes etc). Mangaing a container environment is very feasible, whereas managing all user enviromments is often prohibitive. Depending on how many "an awful lot of" means, Docker may not be the right solution and something such as kubernetes may be a better fit. Containers work by having configurable operating system entirely contained in the accessible environment.
